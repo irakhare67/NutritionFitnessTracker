@@ -12,7 +12,7 @@ import pickle
 from pathlib import Path
 import streamlit_authenticator as stauth
 import os
-names = ["Aniket","pranav","karan"]
+names = ["Ira","pranav","karan"]
 usernames=["aniket","pranav","karan"]
 file_path=os.path.join(os.path.dirname(__file__), "hashed_pw.pkl")
 with open(file_path, "rb") as file:
